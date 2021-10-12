@@ -17,12 +17,12 @@ def home():
         "<p>This site is a prototype API for geolocalisation.</p>"
     )
 
-@app.route('/api/v1/resources/beacons/all', methods=['GET'])
+@app.route('/api/v1/beacons/all', methods=['GET'])
 def api_all():
     """Return the whole data."""
     return jsonify(BEACONS)
 
-@app.route('/api/v1/resources/beacons', methods=['GET'])
+@app.route('/api/v1/beacons', methods=['GET'])
 def api_id():
     """Search for a specific ID and return the associated dict."""
     # Check if an ID was provided as part of the URL.
