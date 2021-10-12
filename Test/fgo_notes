@@ -1,4 +1,4 @@
-GeoLoc plane API: 
+## GeoLoc plane API: 
 	Register beacons
 	Référentiel?
 		> point de référence (0;0)
@@ -25,7 +25,7 @@ Beacons = {
 }
 -----------------------------------------------------
 
-APP MAP: Triangulation
+## MONITORING MAP: Triangulation
 	place beacons à partir de l'API
 	show circles of BT detection
 	show phone position on the map with an "X" -> incertitudes -> triangle arrondi ?
