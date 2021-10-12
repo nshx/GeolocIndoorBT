@@ -1,3 +1,12 @@
+## GOALS
+ADD or REMOVE a BEACON from the DATABASE
+{
+		'id': 0,
+    'addr': '12-34-56-ab-cd-ef',
+		'pos_x': 0,
+		'pos_y': 0
+}
+
 ## Running the application
 >>python api.py
 
