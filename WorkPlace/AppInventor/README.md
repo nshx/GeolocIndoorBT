@@ -9,7 +9,7 @@ Envoyer un message à plusieurs modules? -> AT+ADDR?</br>
 Relever le niveau de signal à la réception d'un message.</br>
 Requetes vers API:</br>
 <ul> GET position d'un beacon en fonction de son adresse</br>
-<ul> POST ajout d'un beacon address+location à la BDD</br>
+POST ajout d'un beacon address+location à la BDD</br></ul>
 
 ## COMMIT ALEX
 _Application de communication avec un module Bluetooth HC-05_</br></br>
