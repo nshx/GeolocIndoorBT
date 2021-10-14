@@ -17,11 +17,15 @@ v3: BT?
 
 ## BDD
 mariaDB/MySQL?
+https://raspberrytips.fr/installer-mysql-raspberry-pi-mariadb/</br>
+https://practicalprogramming.fr/nodejs-mysql
 
 ## BLUETOOTH API?!!
 https://web.dev/bluetooth/
 Bluetooth Low Energy -> not implemented in the HC05 module.</br>
 But great for IoT networks.
+https://stackoverflow.com/questions/47511294/how-can-we-use-http-over-bluetooth-low-energy-ble</br>
+RASPBERRY BT : http://commentgeek.com/comment-configurer-bluetooth-raspberry/
 
 ## TODO
 Heberger l'API dans une RapsberryPI</br>
