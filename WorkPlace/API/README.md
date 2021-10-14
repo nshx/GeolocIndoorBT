@@ -13,20 +13,20 @@ POST ajout d'un beacon address + location à la BDD</br></ul>
 Heberger l'API dans une RapsberryPI</br>
 Cela permet d'avoir une url accessible par le smartphone
 
-
 ## Running the application
 >npm start
 
+HomePage: http://127.0.0.1:3000/
+Get whole registered beacons: http://127.0.0.1:3000/beacons
+Get specific beacon: http://127.0.0.1:5000/api/v1/beacons/0
+
 ## URLS
 https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
-curl -v http://127.0.0.1:5000/api/v1/beacons?id=0
+GET: curl -v http://127.0.0.1:5000/api/v1/beacons/0
+POST: ???
+PUT: ???
+DELETE: ???
 
-
-HomePage: http://127.0.0.1:5000/
-
-Get whole registered beacons: http://127.0.0.1:5000/api/v1/beacons/all
-
-Get specific beacon: http://127.0.0.1:5000/api/v1/beacons?id=0
 
 ## References
 python API: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask</br>
@@ -35,3 +35,4 @@ JS API: https://robert-drummond.com/2013/05/08/how-to-build-a-restful-web-api-on
 https://www.ionos.fr/digitalguide/serveur/configuration/configurer-un-serveur-web-raspberry-pi-avec-lamp/</br>
 https://stackoverflow.com/questions/45853530/npm-install-error-not-foundram-files-nodejs-npm-3-mnt-c-program-files-nodejs</br>
 CURL: https://adityasridhar.com/posts/how-to-easily-use-curl-for-http-requests
+https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
