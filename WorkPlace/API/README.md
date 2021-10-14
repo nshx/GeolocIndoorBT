@@ -13,7 +13,9 @@ POST ajout d'un beacon address + location à la BDD</br></ul>
 ```
 
 ## TODO
-Heberger l'API dans une RapsberryPI
+Heberger l'API dans une RapsberryPI</br>
+Cela permet d'avoir une url accessible par le smartphone
+
 
 ## Running the application
 >python api.py
