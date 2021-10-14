@@ -38,11 +38,15 @@ HomePage: http://127.0.0.1:3000/</br>
 Get whole registered beacons: http://127.0.0.1:3000/beacons</br>
 Get specific beacon by id: http://127.0.0.1:3000/beacons/0
 
-## API CURL COMMANDS
-GET: curl -v http://127.0.0.1:3000/beacons/0</br>
-POST: ???</br>
-PUT: ???</br>
-DELETE: ???
+## API CURL COMMANDS UBUNTU
+**GET** :
+curl http://localhost:3000/beacons/3</br>
+**POST** :
+curl -H 'Content-Type: application/json' -d '{"id": 3,"addr": "XX-XX-XX-XX-XX-XX"}' http://127.0.0.1:3000/beacons/</br>
+**PUT** :
+curl -X PUT -H "Content-Type: application/json" -d '{"id":3,"addr": "12-12-12-12-12-66","date": "10-14-2021","pos_x":-3,"pos_y":40}' http://localhost:3000/beacons/</br>
+**DELETE** :
+curl -X DELETE http://localhost:3000/beacons/3 -H "Accept: application/json"</br>
 
 
 ## References
