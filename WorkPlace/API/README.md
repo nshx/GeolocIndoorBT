@@ -15,9 +15,10 @@ Cela permet d'avoir une url accessible par le smartphone
 
 
 ## Running the application
->python api.py
+>npm start
 
 ## URLS
+https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
 curl -v http://127.0.0.1:5000/api/v1/beacons?id=0
 
 
