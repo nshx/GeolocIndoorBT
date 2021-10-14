@@ -15,7 +15,7 @@ v1: Python
 v2: nodeJS
 v3: BT?
 
-## BDD
+## BDD ??
 mariaDB/MySQL?
 https://raspberrytips.fr/installer-mysql-raspberry-pi-mariadb/</br>
 https://practicalprogramming.fr/nodejs-mysql
@@ -29,6 +29,7 @@ RASPBERRY BT : http://commentgeek.com/comment-configurer-bluetooth-raspberry/
 
 ## TODO
 Heberger l'API dans une RapsberryPI
+Sauvegarde du fichier d'initialisation beacon.json
 
 ## Running the application
 Dans le répertoire du fichier index.js :
