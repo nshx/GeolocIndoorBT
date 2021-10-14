@@ -5,10 +5,10 @@ Cette application permet la gestion de la flotte de beacons.</br>
 POST ajout d'un beacon address + location à la BDD</br></ul>
 ```
 {
-	'id': 0,
-	'addr': '12-34-56-ab-cd-ef',
-	'pos_x': 0,
-	'pos_y': 0
+'id': 0,
+'addr': '12-34-56-ab-cd-ef',
+'pos_x': 0,
+'pos_y': 0
 }
 ```
 
