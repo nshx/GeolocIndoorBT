@@ -3,14 +3,13 @@ _Application Progamming Interface_</br></br>
 Cette application permet la gestion de la flotte de beacons.</br>
 <ul> GET position d'un beacon en fonction de son adresse</br>
 POST ajout d'un beacon address + location à la BDD</br></ul>
-```javascript
+
 {</br></br>
   'id': 0,</br>
   'addr': '12-34-56-ab-cd-ef',</br>
   'pos_x': 0,</br>
   'pos_y': 0</br>
 }
-```
 
 ## TODO
 Heberger l'API dans une RapsberryPI</br>
