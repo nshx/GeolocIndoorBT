@@ -1,15 +1,15 @@
 ## Application Android
-Se connecter à un module BT
-Envoyer un message
-Recevoir une confirmation de réception du module BT
+Se connecter à un module BT.</br>
+Envoyer un message.</br>
+Recevoir une confirmation de réception du module BT.</br>
 
 ## TODO
-Se connecter à plusieurs modules?
-Envoyer un message à plusieurs modules? -> AT+ADDR?
-Relever le niveau de signal à la réception d'un message
-Requetes vers API:
-  GET position d'un beacon en fonction de son adresse
-  POST ajout d'un beacon address+location à la BDD
+Se connecter à plusieurs modules?</br>
+Envoyer un message à plusieurs modules? -> AT+ADDR?</br>
+Relever le niveau de signal à la réception d'un message.</br>
+Requetes vers API:</br>
+  GET position d'un beacon en fonction de son adresse</br>
+  POST ajout d'un beacon address+location à la BDD</br>
 
 ## COMMIT ALEX
 _Application de communication avec un module Bluetooth HC-05_</br></br>
