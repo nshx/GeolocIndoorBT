@@ -16,7 +16,7 @@ Rayon (beacon + éloigné + rayon de détection)*1.05.</br></ul>
 |               .             B2 |
 |                O(0;0)          |
 |                                |
-|                                |
+|                           B3   |
 | B0                 B4          |
  --------------------------------
 ```
