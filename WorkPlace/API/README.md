@@ -6,6 +6,7 @@ POST ajout d'un beacon address + location à la BDD</br></ul>
 
   'id': 0,</br>
   'addr': '12-34-56-ab-cd-ef',</br>
+  'date': '14-10-2020',</br>
   'pos_x': 0,</br>
   'pos_y': 0</br>
 
