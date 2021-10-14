@@ -3,7 +3,7 @@ _Application Progamming Interface_</br></br>
 Cette application permet la gestion de la flotte de beacons.</br>
 <ul> GET position d'un beacon en fonction de son adresse</br>
 POST ajout d'un beacon address + location à la BDD</br></ul>
-```python
+```
 {
 	'id': 0,
 	'addr': '12-34-56-ab-cd-ef',
