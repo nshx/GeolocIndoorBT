@@ -18,4 +18,4 @@ puis prend en charge la communication bidirectionnelle entre le smartphone et la
 
 Les boutons On/Off de l'application permet de simplement envoyer un '1' ou un '0' plus rapidement qu'avec la zone de texte.
 
-Le bouton Disconnect <br>interrompt</br> la communication et reset l'affichage.
+Le bouton Disconnect <strong>interrompt</strong> la communication et reset l'affichage.
