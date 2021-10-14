@@ -19,7 +19,7 @@ Cela permet d'avoir une url accessible par le smartphone
 
 HomePage: http://127.0.0.1:3000/</br>
 Get whole registered beacons: http://127.0.0.1:3000/beacons</br>
-Get specific beacon: http://127.0.0.1:3000/eacons/0
+Get specific beacon: http://127.0.0.1:3000/beacons/0
 
 ## URLS
 https://gist.github.com/subfuzion/08c5d85437d5d4f00e58</br>
