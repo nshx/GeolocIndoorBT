@@ -7,7 +7,7 @@ Recevoir une confirmation de réception du module BT.</br>
 Se connecter à plusieurs modules?</br>
 Envoyer un message à plusieurs modules? -> AT+ADDR?</br>
 Relever le niveau de signal à la réception d'un message.</br>
-Requetes vers API:</br>
+Requetes vers API:
 <ul> GET position d'un beacon en fonction de son adresse</br>
 POST ajout d'un beacon address+location à la BDD</br></ul>
 
