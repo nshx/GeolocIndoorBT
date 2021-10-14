@@ -21,13 +21,13 @@ Rayon (beacon + éloigné + rayon de détection)*1.05.</br></ul>
  --------------------------------
 ```
 
-SCALE??? = RSSI/d
-=> d = RSSI/SCALE
-
-position = intersection des cercles de rayon "d".
-
-0 beacon -> LOL
-1 beacon -> Circle
-2 beacons -> 1-2 positions
-3 beacons -> 1 position
-4 beacons -> 1 position
+SCALE??? = RSSI/d</br>
+=> d = RSSI/SCALE</br>
+</br>
+position = intersection des cercles de rayon "d".</br>
+</br>
+0 beacon -> LOL</br>
+1 beacon -> Circle</br>
+2 beacons -> 1-2 positions</br>
+3 beacons -> 1 position</br>
+4 beacons -> 1 position</br>
