@@ -7,6 +7,7 @@
 		rayon (beacon + éloigné + rayon de détection)*1.05
 	> zoom
 
+```
  --------------------------------
 |               B1               |
 |                                |
@@ -18,6 +19,7 @@
 |                                |
 | B0                 B4          |
  --------------------------------
+```
 
 SCALE??? = RSSI/d
 => d = RSSI/SCALE
