@@ -18,6 +18,9 @@ Cela permet d'avoir une url accessible par le smartphone
 >python api.py
 
 ## URLS
+curl -v http://127.0.0.1:5000/api/v1/beacons?id=0
+
+
 HomePage: http://127.0.0.1:5000/
 
 Get whole registered beacons: http://127.0.0.1:5000/api/v1/beacons/all
