@@ -12,7 +12,7 @@ Requetes vers API:
   POST ajout d'un beacon address+location à la BDD
 
 ## COMMIT ALEX
-_Application de communication avec un module Bluetooth HC-05_\n
+<br>_Application de communication avec un module Bluetooth HC-05_</br>
 Cette application établie la **connexion** avec un module Bluetooth HC-05 connecté sur une arduino,
 puis prend en charge la **communication bidirectionnelle** entre le smartphone et la carte en passant par le module.
 
