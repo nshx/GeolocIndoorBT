@@ -1,11 +1,11 @@
 ## MONITORING MAP: Triangulation
-	place beacons à partir de l'API
-	show circles of BT detection
-	show phone position on the map with an "X" -> incertitudes -> triangle arrondi ?
-	forme de la carte = cercle
-		centre(barycentre des Beacons)
-		rayon (beacon + éloigné + rayon de détection)*1.05
-	> zoom
+	<bu>Place beacons à partir de l'API.
+	Show circles of BT detection.
+	Show phone position on the map with an "X" -> incertitudes -> triangle arrondi ?
+	Forme de la carte = cercle.
+		Centre(barycentre des Beacons).
+		Rayon (beacon + éloigné + rayon de détection)*1.05.
+	> Zoom.</bu>
 
 ```
  --------------------------------
