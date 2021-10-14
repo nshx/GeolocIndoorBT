@@ -10,12 +10,18 @@ POST ajout d'un beacon address + location à la BDD</br></ul>
   'date': '14-10-2020',</br>
   'pos_x': 0,</br>
   'pos_y': 0</br>
-  
-## BDD
-mariaDB
 
-## BLUETOOTH API!!!
+v1: Python
+v2: nodeJS
+v3: BT?
+
+## BDD
+mariaDB/MySQL?
+
+## BLUETOOTH API?!!
 https://web.dev/bluetooth/
+Bluetooth Low Energy -> not implemented in the HC05 module.</br>
+But great for IoT networks.
 
 ## TODO
 Heberger l'API dans une RapsberryPI</br>
@@ -40,6 +46,5 @@ python API: https://programminghistorian.org/en/lessons/creating-apis-with-pytho
 Add web API access to MIT App Inventor2 apps : https://www.youtube.com/watch?v=GVv00IP1x7Y</br>
 JS API: https://robert-drummond.com/2013/05/08/how-to-build-a-restful-web-api-on-a-raspberry-pi-in-javascript/</br>
 https://www.ionos.fr/digitalguide/serveur/configuration/configurer-un-serveur-web-raspberry-pi-avec-lamp/</br>
-https://stackoverflow.com/questions/45853530/npm-install-error-not-foundram-files-nodejs-npm-3-mnt-c-program-files-nodejs</br>
 CURL: https://adityasridhar.com/posts/how-to-easily-use-curl-for-http-requests</br>
-https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
+CURL: https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
