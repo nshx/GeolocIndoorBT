@@ -20,7 +20,7 @@ mariaDB/MySQL?
 https://raspberrytips.fr/installer-mysql-raspberry-pi-mariadb/</br>
 https://practicalprogramming.fr/nodejs-mysql
 
-## BLUETOOTH API?!!
+## BLUETOOTH API?!! ABANDON
 https://web.dev/bluetooth/
 Bluetooth Low Energy -> not implemented in the HC05 module.</br>
 But great for IoT networks.
@@ -28,15 +28,12 @@ https://stackoverflow.com/questions/47511294/how-can-we-use-http-over-bluetooth-
 RASPBERRY BT : http://commentgeek.com/comment-configurer-bluetooth-raspberry/
 
 ## TODO
-Heberger l'API dans une RapsberryPI</br>
-Cela permet d'avoir une url accessible par le smartphone
+Heberger l'API dans une RapsberryPI
 
 ## Running the application
+Dans le répertoire du fichier index.js :
 >npm start
-
 HomePage: http://127.0.0.1:3000/</br>
-Get whole registered beacons: http://127.0.0.1:3000/beacons</br>
-Get specific beacon by id: http://127.0.0.1:3000/beacons/0
 
 ## API CURL COMMANDS UBUNTU
 **GET** :
