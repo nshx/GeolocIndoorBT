@@ -1,6 +1,7 @@
 ## DESCRIPTION
 _Application Progamming Interface_</br></br>
 Cette application permet la gestion de la flotte de beacons.</br>
+Il y a 3 beacons enregistrés par défaut dans la BDD.</br>
 <ul> GET position d'un beacon en fonction de son adresse</br>
 POST ajout d'un beacon address + location à la BDD</br></ul>
 
