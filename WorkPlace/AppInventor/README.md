@@ -16,6 +16,6 @@ _Application de communication avec un module Bluetooth HC-05_</br>
 Cette application établie la **connexion** avec un module Bluetooth HC-05 connecté sur une arduino,
 puis prend en charge la **communication bidirectionnelle** entre le smartphone et la carte en passant par le module.
 
-Les boutons __On/Off__ de l'application permet de simplement envoyer un **'1'** ou un **'0'** plus rapidement qu'avec la zone de texte.
+Les boutons _On/Off_ de l'application permet de simplement envoyer un **'1'** ou un **'0'** plus rapidement qu'avec la zone de texte.
 
-Le bouton __Disconnect__ **interrompt** la communication et **reset** l'affichage.
+Le bouton _Disconnect_ **interrompt** la communication et **reset** l'affichage.
