@@ -10,6 +10,12 @@ POST ajout d'un beacon address + location à la BDD</br></ul>
   'date': '14-10-2020',</br>
   'pos_x': 0,</br>
   'pos_y': 0</br>
+  
+## BDD
+mariaDB
+
+## BLUETOOTH API!!!
+https://web.dev/bluetooth/
 
 ## TODO
 Heberger l'API dans une RapsberryPI</br>
