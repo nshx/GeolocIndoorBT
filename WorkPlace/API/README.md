@@ -29,4 +29,5 @@ python API: https://programminghistorian.org/en/lessons/creating-apis-with-pytho
 Add web API access to MIT App Inventor2 apps : https://www.youtube.com/watch?v=GVv00IP1x7Y</br>
 JS API: https://robert-drummond.com/2013/05/08/how-to-build-a-restful-web-api-on-a-raspberry-pi-in-javascript/</br>
 https://www.ionos.fr/digitalguide/serveur/configuration/configurer-un-serveur-web-raspberry-pi-avec-lamp/</br>
-https://stackoverflow.com/questions/45853530/npm-install-error-not-foundram-files-nodejs-npm-3-mnt-c-program-files-nodejs
+https://stackoverflow.com/questions/45853530/npm-install-error-not-foundram-files-nodejs-npm-3-mnt-c-program-files-nodejs</br>
+CURL: https://adityasridhar.com/posts/how-to-easily-use-curl-for-http-requests
