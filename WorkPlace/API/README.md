@@ -27,4 +27,5 @@ Get specific beacon: http://127.0.0.1:5000/api/v1/beacons?id=0
 ## References
 https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask</br>
 https://robert-drummond.com/2013/05/08/how-to-build-a-restful-web-api-on-a-raspberry-pi-in-javascript/</br>
-Add web API access to MIT App Inventor2 apps : https://www.youtube.com/watch?v=GVv00IP1x7Y
+Add web API access to MIT App Inventor2 apps : https://www.youtube.com/watch?v=GVv00IP1x7Y</br>
+https://stackoverflow.com/questions/45853530/npm-install-error-not-foundram-files-nodejs-npm-3-mnt-c-program-files-nodejs
