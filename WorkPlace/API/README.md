@@ -29,7 +29,8 @@ RASPBERRY BT : http://commentgeek.com/comment-configurer-bluetooth-raspberry/
 
 ## TODO
 Heberger l'API dans une RapsberryPI</br>
-Sauvegarde du fichier d'initialisation beacon.json
+Sauvegarde du fichier d'initialisation beacon.json</br>
+Ajout des utilisateurs + filtre de recherche
 
 ## Running the application
 Dans le répertoire du fichier index.js :
