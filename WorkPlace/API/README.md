@@ -51,8 +51,6 @@ curl -X DELETE http://localhost:3000/beacons/3 -H "Accept: application/json"</br
 
 ## References
 python API: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask</br>
-Add web API access to MIT App Inventor2 apps : https://www.youtube.com/watch?v=GVv00IP1x7Y</br>
 JS API: https://robert-drummond.com/2013/05/08/how-to-build-a-restful-web-api-on-a-raspberry-pi-in-javascript/</br>
-https://www.ionos.fr/digitalguide/serveur/configuration/configurer-un-serveur-web-raspberry-pi-avec-lamp/</br>
 CURL: https://adityasridhar.com/posts/how-to-easily-use-curl-for-http-requests</br>
 CURL: https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
