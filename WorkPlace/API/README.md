@@ -34,6 +34,7 @@ Sauvegarde du fichier d'initialisation beacon.json
 ## Running the application
 Dans le répertoire du fichier index.js :
 >npm start</br>
+
 HomePage: http://127.0.0.1:3000/
 
 ## API CURL COMMANDS UBUNTU
