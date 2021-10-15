@@ -28,7 +28,7 @@ https://stackoverflow.com/questions/47511294/how-can-we-use-http-over-bluetooth-
 RASPBERRY BT : http://commentgeek.com/comment-configurer-bluetooth-raspberry/
 
 ## TODO
-Heberger l'API dans une RapsberryPI
+Heberger l'API dans une RapsberryPI</br>
 Sauvegarde du fichier d'initialisation beacon.json
 
 ## Running the application
