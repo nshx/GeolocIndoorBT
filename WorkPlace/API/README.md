@@ -41,7 +41,7 @@ HomePage: http://127.0.0.1:3000/</br>
 curl http://localhost:3000/beacons/</br>
 **POST - ADD BEACON** :
 curl -H 'Content-Type: application/json' -d '{"id": 3,"addr": "XX-XX-XX-XX-XX-XX"}' http://127.0.0.1:3000/beacons/</br>
-**PUT - MODIFY BEACON** :
+**PUT - UPDATE BEACON** :
 curl -X PUT -H "Content-Type: application/json" -d '{"id":3,"addr": "12-12-12-12-12-66","date": "10-14-2021","pos_x":-3,"pos_y":40}' http://localhost:3000/beacons/</br>
 **GET - SINGLE BEACON BY ID** :
 curl http://localhost:3000/beacons/3</br>
