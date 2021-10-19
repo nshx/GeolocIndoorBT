@@ -40,15 +40,15 @@ HomePage: http://127.0.0.1:3000/
 
 ## API CURL COMMANDS UBUNTU
 **GET - EVERY BEACONS** :
-curl http://localhost:3000/beacons/</br>
+curl http://localhost:3000/api/v2/beacons/</br>
 **POST - ADD BEACON** :
-curl -H 'Content-Type: application/json' -d '{"id": 3,"addr": "XX-XX-XX-XX-XX-XX"}' http://127.0.0.1:3000/beacons/</br>
+curl -H 'Content-Type: application/json' -d '{"id": 3,"addr": "XX-XX-XX-XX-XX-XX"}' http://127.0.0.1:3000/api/v2/beacons/</br>
 **PUT - UPDATE BEACON** :
-curl -X PUT -H "Content-Type: application/json" -d '{"id":3,"addr": "12-12-12-12-12-66","date": "10-14-2021","pos_x":-3,"pos_y":40}' http://localhost:3000/beacons/</br>
+curl -X PUT -H "Content-Type: application/json" -d '{"id":3,"addr": "12-12-12-12-12-66","date": "10-14-2021","pos_x":-3,"pos_y":40}' http://localhost:3000/api/v2/beacons/</br>
 **GET - SINGLE BEACON BY ID** :
-curl http://localhost:3000/beacons/3</br>
+curl http://localhost:3000/api/v2/beacons/3</br>
 **DELETE - REMOVE BEACON BY ID** :
-curl -X DELETE http://localhost:3000/beacons/3 -H "Accept: application/json"</br>
+curl -X DELETE http://localhost:3000/api/v2/beacons/3 -H "Accept: application/json"</br>
 
 
 ## References
