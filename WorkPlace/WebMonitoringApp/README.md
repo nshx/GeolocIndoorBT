@@ -31,3 +31,9 @@ position = intersection des cercles de rayon "d".</br>
 2 beacons -> 1-2 positions</br>
 3 beacons -> 1 position</br>
 4 beacons -> 1 position</br>
+
+
+
+
+
+https://tzi.fr/js/triangulation/
