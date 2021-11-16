@@ -42,13 +42,13 @@ HomePage: http://127.0.0.1:3000/
 **GET - EVERY BEACONS** :</br>
 curl http://localhost:3000/api/v2/beacons/</br>
 **POST - ADD BEACON** :</br>
-curl -H 'Content-Type: application/json' -d '{"addr": "44-44-44-44-44-44","pos_x":5,"pos_y":5}' http://127.0.0.1:3000/api/v2/beacons/</br>
+curl -H 'Content-Type: application/json' -d '{"id":4,"RSSI":-100,"addr":"44-44-44-44-44-44","pos_x":5,"pos_y":5}' http://127.0.0.1:3000/api/v2/beacons/</br>
 **PUT - UPDATE BEACON** :</br>
-curl -X PUT -H "Content-Type: application/json" -d '{"pos_x":-3,"pos_y":40}' http://localhost:3000/api/v2/beacons/5</br>
+curl -X PUT -H "Content-Type: application/json" -d '{"id":4,"RSSI":-100,"addr":"44-44-44-44-44-44","pos_x":-3,"pos_y":40}' http://localhost:3000/api/v2/beacons/4</br>
 **GET - SINGLE BEACON BY ID** :</br>
-curl http://localhost:3000/api/v2/beacons/5</br>
+curl http://localhost:3000/api/v2/beacons/4</br>
 **DELETE - REMOVE BEACON BY ID** :</br>
-curl -X DELETE http://localhost:3000/api/v2/beacons/5 -H "Accept: application/json"</br>
+curl -X DELETE http://localhost:3000/api/v2/beacons/4 -H "Accept: application/json"</br>
 
 
 ## References
