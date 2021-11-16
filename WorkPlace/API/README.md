@@ -42,13 +42,13 @@ HomePage: http://127.0.0.1:3000/
 **GET - EVERY BEACONS** :</br>
 curl http://localhost:3000/api/v2/beacons/</br>
 **POST - ADD BEACON** :</br>
-curl -H 'Content-Type: application/json' -d '{"id": 3,"addr": "XX-XX-XX-XX-XX-XX"}' http://127.0.0.1:3000/api/v2/beacons/</br>
+curl -H 'Content-Type: application/json' -d '{"addr": "44-44-44-44-44-44","pos_x":5,"pos_y":5}' http://127.0.0.1:3000/api/v2/beacons/</br>
 **PUT - UPDATE BEACON** :</br>
-curl -X PUT -H "Content-Type: application/json" -d '{"id":3,"addr": "12-12-12-12-12-66","date": "10-14-2021","pos_x":-3,"pos_y":40}' http://localhost:3000/api/v2/beacons/</br>
+curl -X PUT -H "Content-Type: application/json" -d '{"pos_x":-3,"pos_y":40}' http://localhost:3000/api/v2/beacons/5</br>
 **GET - SINGLE BEACON BY ID** :</br>
-curl http://localhost:3000/api/v2/beacons/3</br>
+curl http://localhost:3000/api/v2/beacons/5</br>
 **DELETE - REMOVE BEACON BY ID** :</br>
-curl -X DELETE http://localhost:3000/api/v2/beacons/3 -H "Accept: application/json"</br>
+curl -X DELETE http://localhost:3000/api/v2/beacons/5 -H "Accept: application/json"</br>
 
 
 ## References
