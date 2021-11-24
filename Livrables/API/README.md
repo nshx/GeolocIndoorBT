@@ -15,30 +15,37 @@ Chaque beacon est structuré de la manière suivante :</br>
 }
 ```
 Le drapeau</br>
-  'id': 0,</br>
-  'flag': 0</br>
+```python
+{
+  'id': 0,
+  'flag': 0
+}
+```
 0 => Mise à jour des RSSI</br>
 1 => Lecture autorisée : la WebApp peut récupérer les données</br>
 
 v3: JS + Compatibilité WebApp
 
 ## Installation
-NodeJS:</br>
-  install nodeJS</br>
-  install npm</br>
-  npm i -s express</br>
-  npm i -s nodemon</br>
-  
-HTTP requests:</br>
+NodeJS:
+```
+  install nodeJS
+  install npm
+  npm i -s express
+  npm i -s nodemon
+``` 
+HTTP requests:
+```
   sudo apt update && sudo apt upgrade</br>
   sudo apt install curl</br>
-
+```
 ## Running the application
 Télécharger puis décompresser le fichier .zip.</br>
 Ouvrir l'invite de commande dans le répertoire du fichier index.js.</br>
-Pour lancer l'API, exécuter l'instruction</br>
-  npm start</br>
-
+Pour lancer l'API, exécuter l'instruction :
+```
+  npm start
+```
 ## API CURL COMMANDS UBUNTU
 **GET - EVERY BEACONS** :</br>
 curl http://localhost:3000/api/v3/beacons/</br>
