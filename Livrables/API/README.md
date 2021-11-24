@@ -24,7 +24,7 @@ Le drapeau</br>
 0 => Mise à jour des RSSI</br>
 1 => Lecture autorisée : la WebApp peut récupérer les données</br>
 ## Livrable
-Dans le dossier compressé v3.zip, vous trouverez l'arborescence suivante :
+Dans le dossier décompressé v3.zip, vous trouverez l'arborescence suivante :
 ```
 v3
   db
@@ -36,7 +36,7 @@ v3
 ``` 
 v3: JS + Compatibilité WebApp
 ## Installation
-Télécharger puis décompresser le fichier .zip.</br>
+Télécharger puis décompresser le fichier v3.zip.</br>
 Dans le terminal Linux, installation de NodeJS:
 ```
   install nodeJS
