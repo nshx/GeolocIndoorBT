@@ -48,6 +48,10 @@ HTTP requests:
   sudo apt update && sudo apt upgrade</br>
   sudo apt install curl</br>
 ```
+Droits d'execution RaspPI, depuis le répertoire ./v3 :
+```
+  sudo chown 711 ./node_modules/.bin/nodemon
+```
 ## Running the application
 Télécharger puis décompresser le fichier .zip.</br>
 Ouvrir l'invite de commande dans le répertoire du fichier index.js.</br>
@@ -78,11 +82,20 @@ curl http://localhost:3000/api/v3/beacons/4/
 ```
 curl -X DELETE http://localhost:3000/api/v3/beacons/4/ -H "Accept: application/json"
 ```
-## WEBAPP
-
+## Intégration de l'API dans l'architecture BT
+Il est fondamental de connecter la RaspPi et le smartphone sur le même réseau WiFi.
+# Application Web
+L'application Web check toutes les 5 secondes l'état du drapeau.</br>
+S'il est à 1, elle lance une requête GET pour récupérer les données des 3 balises.</br>
+Elle lance une requête PUT pour reset la valeur du drapeau à 0.</br>
+# Application Android
+Le téléphone scan et recherche les balises du réseau grâce à leur adresse BT unique.</br>
+Il récupère jusqu'à 3 RSSI puis envoie une requête PUT pour mettre à jour la database</br>
+et passer le drapeau à 1.</br>
 ## References
 projet python API: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask</br>
 projet node.JS API + BDD mongoDB : https://www.youtube.com/watch?v=hjR52rCqlQU</br>
 JS API: https://robert-drummond.com/2013/05/08/how-to-build-a-restful-web-api-on-a-raspberry-pi-in-javascript/</br>
 CURL: https://adityasridhar.com/posts/how-to-easily-use-curl-for-http-requests</br>
 CURL: https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
+nodemon errno 126: https://stackoverflow.com/questions/36128086/permission-denied-in-node-on-linux-when-running-start-script-w-local-nodemon/40353773
