@@ -93,7 +93,7 @@ Le téléphone scan et recherche les balises du réseau grâce à leur adresse B
 Il récupère jusqu'à 3 RSSI puis envoie une requête PUT pour mettre à jour la database</br>
 et passer le drapeau à 1.</br>
 ## Updates :
-&nbsp;&nbsp;&nbsp;- 24/11/2021: Version 1.0.0, Félix GOUBIN
+&nbsp;&nbsp;&nbsp;- 24/11/2021: Version 1.0.0, Félix GOUBIN (nshx)
 ## References
 projet python API: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask</br>
 projet node.JS API + BDD mongoDB : https://www.youtube.com/watch?v=hjR52rCqlQU</br>
