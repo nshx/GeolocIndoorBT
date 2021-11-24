@@ -48,7 +48,7 @@ HTTP requests:
   sudo apt update && sudo apt upgrade</br>
   sudo apt install curl</br>
 ```
-Droits d'execution RaspPI, depuis le répertoire ./v3 :
+Droits d'execution RaspPI, depuis le répertoire ./v3 (en coordination avec Thomas) :
 ```
   sudo chown 711 ./node_modules/.bin/nodemon
 ```
@@ -84,7 +84,7 @@ curl -X DELETE http://localhost:3000/api/v3/beacons/4/ -H "Accept: application/j
 ```
 ## Intégration de l'API dans l'architecture BT
 Il est fondamental de connecter la RaspPi et le smartphone sur le même réseau WiFi.
-### Application Web
+### Application Web (en coordination avec Alexandre)
 L'application Web check toutes les 5 secondes l'état du drapeau.</br>
 S'il est à 1, elle lance une requête GET pour récupérer les données des 3 balises.</br>
 Elle lance une requête PUT pour reset la valeur du drapeau à 0.</br>
