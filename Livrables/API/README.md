@@ -70,7 +70,7 @@ curl http://localhost:3000/api/v3/beacons/
 ```
 curl -H 'Content-Type: application/json' -d '{"id":4,"addr":"44-44-44-44-44-44","RSSI":-100,"pos_x":5,"pos_y":5}' http://localhost:3000/api/v3/beacons/
 ```
-**PUT - UPDATE BEACON**: Mise à jour du RSSI de la 4e balise
+**PUT - UPDATE BEACON BY ID**: Mise à jour du RSSI de la 4e balise
 ```
 curl -X PUT -H "Content-Type: application/json" -d '{"RSSI":-42}' http://localhost:3000/api/v3/beacons/4/
 ```
@@ -92,6 +92,8 @@ Elle lance une requête PUT pour reset la valeur du drapeau à 0.</br>
 Le téléphone scan et recherche les balises du réseau grâce à leur adresse BT unique.</br>
 Il récupère jusqu'à 3 RSSI puis envoie une requête PUT pour mettre à jour la database</br>
 et passer le drapeau à 1.</br>
+## Updates :
+&nbsp;&nbsp;&nbsp;- 24/11/2021: Version 1.0.0, Félix GOUBIN
 ## References
 projet python API: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask</br>
 projet node.JS API + BDD mongoDB : https://www.youtube.com/watch?v=hjR52rCqlQU</br>
