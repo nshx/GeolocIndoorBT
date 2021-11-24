@@ -24,12 +24,12 @@ Le drapeau</br>
 0 => Mise à jour des RSSI</br>
 1 => Lecture autorisée : la WebApp peut récupérer les données</br>
 ## Livrable
-Dans le dossier compressé v3.zip, vous trouverez :
+Dans le dossier compressé v3.zip, vous trouverez l'arborescence suivante :
 ```
-v3
-  db
+v3 ̬
+db ̬
     beacons.json      => fichier d'initialisation de la database
-  node_modules
+  node_modules ̬
     myapi.js          => définition des routes/requêtes HTTP autorisées
     package-lock.json => bibliothèques utilisées, fichier généré automatiquement lors de la création du projet JS
     package.json      => paramètres du fichier myapi.js
