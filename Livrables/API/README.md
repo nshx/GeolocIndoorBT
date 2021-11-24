@@ -23,7 +23,17 @@ Le drapeau</br>
 ```
 0 => Mise à jour des RSSI</br>
 1 => Lecture autorisée : la WebApp peut récupérer les données</br>
-
+## Livrable
+Dans le dossier compressé v3.zip, vous trouverez :
+```
+v3
+  db
+    beacons.json      => fichier d'initialisation de la database
+  node_modules
+    myapi.js          => définition des routes/requêtes HTTP autorisées
+    package-lock.json => bibliothèques utilisées, fichier généré automatiquement lors de la création du projet JS
+    package.json      => paramètres du fichier myapi.js
+``` 
 v3: JS + Compatibilité WebApp
 
 ## Installation
@@ -46,7 +56,9 @@ Pour lancer l'API, exécuter l'instruction :
 ```
   npm start
 ```
-## API CURL COMMANDS UBUNTU
+## USE CASE
+Les commandes cURL suivantes permettent de mettre à jour manuellement la data base.</br>
+Elles ont été testées et validées sur la version 18.04 d'Ubuntu.</br>
 **GET - EVERY BEACONS** :
 ```
 curl http://localhost:3000/api/v3/beacons/
