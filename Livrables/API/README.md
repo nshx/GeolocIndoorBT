@@ -26,10 +26,10 @@ Le drapeau</br>
 ## Livrable
 Dans le dossier compressé v3.zip, vous trouverez l'arborescence suivante :
 ```
-v3 ̬
-db ̬
+v3
+  db
     beacons.json      => fichier d'initialisation de la database
-  node_modules ̬
+  node_modules
     myapi.js          => définition des routes/requêtes HTTP autorisées
     package-lock.json => bibliothèques utilisées, fichier généré automatiquement lors de la création du projet JS
     package.json      => paramètres du fichier myapi.js
