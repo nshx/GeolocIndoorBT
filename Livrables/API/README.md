@@ -88,6 +88,7 @@ Il est fondamental de connecter la RaspPi et le smartphone sur le même réseau 
 L'application Web check toutes les 5 secondes l'état du drapeau.</br>
 S'il est à 1, elle lance une requête GET pour récupérer les données des 3 balises.</br>
 Elle lance une requête PUT pour reset la valeur du drapeau à 0.</br>
+
 ### Application Android
 Le téléphone scan et recherche les balises du réseau grâce à leur adresse BT unique.</br>
 Il récupère jusqu'à 3 RSSI puis envoie une requête PUT pour mettre à jour la database</br>
