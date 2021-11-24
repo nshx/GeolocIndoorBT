@@ -4,7 +4,7 @@ Cette application permet la gestion de la flotte des balises.</br>
 La database est enregistrée localement dans la RaspPi.</br>
 Elle contient 3 balises et 1 drapeau. La position et l'adresse Bluetooth de chaque dispositif sont connues.</br>
 Le drapeau régule la lecture des indicateurs d'intensité du signal BT reçu (RSSI).</br>
-Chaque beacon est structuré de la manière suivante :</br>
+Chaque balise est structurée de la manière suivante :</br>
 ```python
 {
   'id': 1,
