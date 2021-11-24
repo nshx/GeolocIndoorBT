@@ -85,9 +85,13 @@ curl -X DELETE http://localhost:3000/api/v3/beacons/4/ -H "Accept: application/j
 ## Intégration de l'API dans l'architecture BT
 Il est fondamental de connecter la RaspPi et le smartphone sur le même réseau WiFi.
 ### Application Web (en coordination avec Alexandre)
-L'application Web check toutes les 5 secondes l'état du drapeau.</br>
+Avant de démarrer l'application (double click sur le fichier page.html),</br>
+il faut vérifier l'adresse IP du serveur de l'API/Database (127.0.0.1 pour un test en local ou l'IP de la raspberry)</br>
+L'application Web check toutes les 5 secondes l'état du drapeau :</br>
 S'il est à 1, elle lance une requête GET pour récupérer les données des 3 balises.</br>
 Elle lance une requête PUT pour reset la valeur du drapeau à 0.</br>
+Pour s'assurer de la récupération des données, nous regardons la console DevTools (touche F12) de la page Web.</br>
+![setflag](https://user-images.githubusercontent.com/92402906/143230502-82cc5493-3866-4f65-9338-8d064d4c5c6a.jpg)
 
 ### Application Android
 Le téléphone scan et recherche les balises du réseau grâce à leur adresse BT unique.</br>
