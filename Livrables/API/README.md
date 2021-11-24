@@ -36,24 +36,24 @@ v3
 ``` 
 v3: JS + Compatibilité WebApp
 ## Installation
-NodeJS:
+Télécharger puis décompresser le fichier .zip.</br>
+Dans le terminal Linux, installation de NodeJS:
 ```
   install nodeJS
   install npm
   npm i -s express
   npm i -s nodemon
 ``` 
-HTTP requests:
+Installation de cURL pour lancer des requêtes HTTP :
 ```
   sudo apt update && sudo apt upgrade</br>
   sudo apt install curl</br>
 ```
-Droits d'execution RaspPI, depuis le répertoire ./v3 (en coordination avec Thomas) :
+Droits d'exécution du programme, depuis le répertoire ./v3 (en coordination avec Thomas) :
 ```
   sudo chown 711 ./node_modules/.bin/nodemon
 ```
 ## Running the application
-Télécharger puis décompresser le fichier .zip.</br>
 Ouvrir l'invite de commande dans le répertoire du fichier index.js.</br>
 Pour lancer l'API, exécuter l'instruction :
 ```
