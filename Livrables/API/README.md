@@ -1,6 +1,6 @@
 ## DESCRIPTION
 _Application Progamming Interface_</br></br>
-Cette application permet la gestion de la flotte de beacons.</br>
+Cette application permet la gestion de la flotte des balises.</br>
 La database est enregistrée localement dans la RaspPi.</br>
 Elle contient 3 balises et 1 drapeau. La position et l'adresse Bluetooth de chaque dispositif sont connues.</br>
 Le drapeau régule la lecture des indicateurs d'intensité du signal BT reçu (RSSI).</br>
@@ -35,7 +35,6 @@ v3
     package.json      => paramètres du fichier myapi.js
 ``` 
 v3: JS + Compatibilité WebApp
-
 ## Installation
 NodeJS:
 ```
@@ -56,29 +55,31 @@ Pour lancer l'API, exécuter l'instruction :
 ```
   npm start
 ```
-## USE CASE
+## API cURL USE CASE
 Les commandes cURL suivantes permettent de mettre à jour manuellement la data base.</br>
 Elles ont été testées et validées sur la version 18.04 d'Ubuntu.</br>
-**GET - EVERY BEACONS** :
+**GET - EVERY BEACONS**: Liste l'ensemble de la database
 ```
 curl http://localhost:3000/api/v3/beacons/
 ```
-**POST - ADD BEACON** :
+**POST - ADD BEACON**: Ajout d'une 4e balise
 ```
 curl -H 'Content-Type: application/json' -d '{"id":4,"addr":"44-44-44-44-44-44","RSSI":-100,"pos_x":5,"pos_y":5}' http://localhost:3000/api/v3/beacons/
 ```
-**PUT - UPDATE BEACON** :
+**PUT - UPDATE BEACON**: Mise à jour du RSSI de la 4e balise
 ```
 curl -X PUT -H "Content-Type: application/json" -d '{"RSSI":-42}' http://localhost:3000/api/v3/beacons/4/
 ```
-**GET - SINGLE BEACON BY ID** :
+**GET - SINGLE BEACON BY ID**: Récupération des infos de la 4e balise
 ```
 curl http://localhost:3000/api/v3/beacons/4/
 ```
-**DELETE - REMOVE BEACON BY ID** :
+**DELETE - REMOVE BEACON BY ID**: Suppression de la 4e balise
 ```
 curl -X DELETE http://localhost:3000/api/v3/beacons/4/ -H "Accept: application/json"
 ```
+## WEBAPP
+
 ## References
 projet python API: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask</br>
 projet node.JS API + BDD mongoDB : https://www.youtube.com/watch?v=hjR52rCqlQU</br>
