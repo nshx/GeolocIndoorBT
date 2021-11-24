@@ -47,17 +47,26 @@ Pour lancer l'API, exécuter l'instruction :
   npm start
 ```
 ## API CURL COMMANDS UBUNTU
-**GET - EVERY BEACONS** :</br>
-curl http://localhost:3000/api/v3/beacons/</br>
-**POST - ADD BEACON** :</br>
-curl -H 'Content-Type: application/json' -d '{"id":4,"addr":"44-44-44-44-44-44","RSSI":-100,"pos_x":5,"pos_y":5}' http://localhost:3000/api/v3/beacons/</br>
-**PUT - UPDATE BEACON** :</br>
-curl -X PUT -H "Content-Type: application/json" -d '{"RSSI":-42}' http://localhost:3000/api/v3/beacons/4</br>
-**GET - SINGLE BEACON BY ID** :</br>
-curl http://localhost:3000/api/v3/beacons/4</br>
-**DELETE - REMOVE BEACON BY ID** :</br>
-curl -X DELETE http://localhost:3000/api/v3/beacons/4 -H "Accept: application/json"</br>
-
+**GET - EVERY BEACONS** :
+```
+curl http://localhost:3000/api/v3/beacons/
+```
+**POST - ADD BEACON** :
+```
+curl -H 'Content-Type: application/json' -d '{"id":4,"addr":"44-44-44-44-44-44","RSSI":-100,"pos_x":5,"pos_y":5}' http://localhost:3000/api/v3/beacons/
+```
+**PUT - UPDATE BEACON** :
+```
+curl -X PUT -H "Content-Type: application/json" -d '{"RSSI":-42}' http://localhost:3000/api/v3/beacons/4/
+```
+**GET - SINGLE BEACON BY ID** :
+```
+curl http://localhost:3000/api/v3/beacons/4/
+```
+**DELETE - REMOVE BEACON BY ID** :
+```
+curl -X DELETE http://localhost:3000/api/v3/beacons/4/ -H "Accept: application/json"
+```
 ## References
 projet python API: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask</br>
 projet node.JS API + BDD mongoDB : https://www.youtube.com/watch?v=hjR52rCqlQU</br>
