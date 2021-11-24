@@ -5,12 +5,15 @@ La database est enregistrée localement dans la RaspPi.</br>
 Elle contient 3 balises et 1 drapeau. La position et l'adresse Bluetooth de chaque dispositif sont connues.</br>
 Le drapeau régule la lecture des indicateurs d'intensité du signal BT reçu (RSSI).</br>
 Chaque beacon est structuré de la manière suivante :</br>
-  'id': 1,</br>
-  'addr': '12-34-56-ab-cd-ef',</br>
-  'rssi': -20,</br>
-  'pos_x': 0,</br>
-  'pos_y': 1</br>
-
+```python
+{
+  'id': 1,
+  'addr': '12-34-56-ab-cd-ef',
+  'rssi': -20,
+  'pos_x': 0,
+  'pos_y': 1
+}
+```
 Le drapeau</br>
   'id': 0,</br>
   'flag': 0</br>
