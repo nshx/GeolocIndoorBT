@@ -87,12 +87,19 @@ Il est fondamental de connecter la RaspPi et le smartphone sur le même réseau 
 ### Application Web (en coordination avec Alexandre)
 Avant de démarrer l'application (double click sur le fichier page.html),</br>
 il faut vérifier l'adresse IP du serveur de l'API/Database (127.0.0.1 pour un test en local ou l'IP de la raspberry)</br>
+Pour s'assurer de la récupération des données, nous regardons la console DevTools (touche F12) de la page Web.</br>
+![setflag](https://user-images.githubusercontent.com/92402906/143230502-82cc5493-3866-4f65-9338-8d064d4c5c6a.jpg)
+Par défaut (et pour faciliter les tests), le drapeau est initialisé à 1.</br>
+C'est pourquoi au lancement de la page web, nous récupérons les données stockées dans la database.</br>
 L'application Web check toutes les 5 secondes l'état du drapeau :</br>
 S'il est à 1, elle lance une requête GET pour récupérer les données des 3 balises.</br>
 Elle lance une requête PUT pour reset la valeur du drapeau à 0.</br>
-Pour s'assurer de la récupération des données, nous regardons la console DevTools (touche F12) de la page Web.</br>
-![setflag](https://user-images.githubusercontent.com/92402906/143230502-82cc5493-3866-4f65-9338-8d064d4c5c6a.jpg)
-
+Nous simulons manuellement la mise à jour de nouvelles valeurs avec la commandes cURL PUT présentée précédemment.</br>
+Pour indiquer l'état READ READY à l'application web, nous passons la valeur du drapeau à 1 : depuis un terminal Linux :
+```
+curl -X PUT -H "Content-Type: application/json" -d '{"flag":1}' http://localhost:3000/api/v3/beacons/0/
+```
+Une fois le drapeau à jour, l'application Web relance une requête GET pour récupérer les données des 3 balises.</br>
 ### Application Android
 Le téléphone scan et recherche les balises du réseau grâce à leur adresse BT unique.</br>
 Il récupère jusqu'à 3 RSSI puis envoie une requête PUT pour mettre à jour la database</br>
