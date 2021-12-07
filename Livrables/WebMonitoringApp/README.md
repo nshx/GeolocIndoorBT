@@ -59,7 +59,7 @@ Si l'utilisateur ne donne pas un multiple de 10, alors la valeur qui sera donné
 Une fois les valeurs RSSI entrées pour chaque balise, l'utilisateur peut lancer la localisation avec le bouton "scan-area".
 
 #### Mode Simulation : La Triangulation.</br>
-_Nota: Toutes les données sont des approximations. Puisque la simulation ne vérifie pas que les RSSI concordent entre eux, il y'a également une approximation sur ces données._
+_Nota: Toutes les données sont des approximations. Puisque la simulation ne vérifie pas que les RSSI concordent entre eux, il y'a également une approximation sur ces données._</br>
 Il existe quatre cas de figure:
 <ul>
   - Aucune balise detecté,</br>
