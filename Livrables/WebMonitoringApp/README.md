@@ -37,6 +37,7 @@ La plage de valeur autorisée est comprise entre -120 jusqu'à -30 dbm, correspo
 <strong>-120</strong> est le signal le plus faible correspondant à une distance utilisateur-balise d'environ 10m moyennant les problèmes de propagation dûe à l'environnement où se trouve les deux entités.</br>
 Pour réaliser la fonction de triangulation présentée ci-après, j'ai procédé par tests pour déterminer la distance correspondant à un niveau RSSI.</br>
 Les données résultantes de la distance en fonction du signal reçu est écrite ci-dessous:</br>
+
 <ul>
   <pre>
 <strong>[dBm]        [m]</strong></br>
@@ -53,7 +54,38 @@ Les données résultantes de la distance en fonction du signal reçu est écrite
    </pre>
 </ul>
 
-Si l'utilisateur ne donne pas un multiple de 10, alors la valeur qui sera donné en retour à la fonction de calcul de la triangulation sera la moyenne des valeurs sup et inf à celle-ci.</br> (Exemple: <strong>input</strong> = -34 dBm; </br> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  <strong>output</strong> = (-30 dBm) + (-40 dBm) / 2 -> (1 m + 2 m) / 2 = 1.5m)</br>
+Si l'utilisateur ne donne pas un multiple de 10, alors la valeur qui sera donné en retour à la fonction de calcul de la triangulation sera la moyenne des valeurs sup et inf à celle-ci.</br> (Exemple: <strong>input</strong> = -34 dBm; </br> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; <strong>output</strong> = (-30 dBm) + (-40 dBm) / 2 -> (1 m + 2 m) / 2 = 1.5m)</br>
+
+Une fois les valeurs RSSI entrées pour chaque balise, l'utilisateur peut lancer la localisation avec le bouton "scan-area".
+
+#### Explication Triangulation.</br>
+Il existe quatre cas de figure:
+<ul>
+  - Aucune balise detecté,</br>
+  - Une balise detecté,</br>
+  - Deux balises detectés,</br>
+  - Trois balises detectés.</br>
+</ul>
+Chaque cas est determiné par le RSSI des 3 balises.
+
+Si le RSSI est supérieur à -30 dBm (alors il y'a une erreur donc rssi = 0) et si rssi est inférieur à -120 dBm (même opération, rssi = 0)
+Lorsque le rssi d'une balise vaut 0 son signal n'existe pas et le nombre de balise detecté diminue de 1.
+
+##### Traitement du cas 1 : 0 balise detectée </br>
+Rien n'est mis à jour, le système reste dans sa dernière position connue. </br>
+
+##### Traitement du cas 2 : 1 balise detectée </br>
+L'utilisateur se place directement au-dessus de la balise dont le signal est capté.</br>
+Cette approximation est obligatoire étant donné l'infinité de possibilité (l'utilisateur peut être n'importe où dans la zone de la balise).</br>
+
+##### Traitement du cas 3 : 2 balises detectées </br>
+Detection des intersections des deux zones (cercle vert fluo). </br>
+L'utilisateur se placera au centre de la droite qui lie les deux intersections.</br>
+
+##### Traitement du cas 4 : 3 balises detectées </br>
+Detection des intersections des trois zones (cercle vert fluo). </br>
+L'utilisateur se placera au centre du triangle que forme les trois intersections.</br>
+
 
 ## Serveur-WebAPP (en coordination avec Félix)
 Avant de démarrer l'application (double click sur le fichier page.html),</br>
