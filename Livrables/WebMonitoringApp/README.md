@@ -72,21 +72,20 @@ Chaque cas est determiné par le RSSI des 3 balises.
 Si le RSSI est supérieur à -30 dBm (alors il y'a une erreur donc rssi = 0) et si rssi est inférieur à -120 dBm (même opération, rssi = 0)
 Lorsque le rssi d'une balise vaut 0 son signal n'existe pas et le nombre de balise detecté diminue de 1.
 
-##### Traitement du cas 1 : 0 balise detectée </br>
-Rien n'est mis à jour, le système reste dans sa dernière position connue. </br>
+##### Traitement du cas 1: 0 balise detectée </br>
+Rien n'est mis à jour, le système reste dans sa dernière position connue.</br>
 
-##### Traitement du cas 2 : 1 balise detectée </br>
+##### Traitement du cas 2: 1 balise detectée </br>
 L'utilisateur se place directement au-dessus de la balise dont le signal est capté.</br>
 Cette approximation est obligatoire étant donné l'infinité de possibilité (l'utilisateur peut être n'importe où dans la zone de la balise).</br>
 
-##### Traitement du cas 3 : 2 balises detectées </br>
-Detection des intersections des deux zones (cercle vert fluo). </br>
+##### Traitement du cas 3: 2 balises detectées </br>
+Détection des intersections des deux zones (cercle vert fluo).</br>
 L'utilisateur se placera au centre de la droite qui lie les deux intersections.</br>
 
-##### Traitement du cas 4 : 3 balises detectées </br>
-Detection des intersections des trois zones (cercle vert fluo). </br>
+##### Traitement du cas 4: 3 balises detectées </br>
+Détection des intersections des trois zones (cercle vert fluo).</br>
 L'utilisateur se placera au centre du triangle que forme les trois intersections.</br>
-
 
 ## Serveur-WebAPP (en coordination avec Félix)
 Avant de démarrer l'application (double click sur le fichier page.html),</br>
