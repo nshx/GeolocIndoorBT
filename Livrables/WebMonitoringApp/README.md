@@ -8,25 +8,22 @@ L'application est constituée de plusieurs zones d'interactions :</br>
   - <strong>Authors</strong> -> Visualisation des tâches réalisées par les membres de l'équipe et remerciment pour la lecture et l'utilisation de l'application WEB.</br>
 </ul>
 
-
-
-
-
-
-
-
 ## Livrable
-Dans le dossier décompressé v3.zip, vous trouverez l'arborescence suivante :
+Dans le dossier décompressé WebAPP_V6.zip, vous trouverez l'arborescence suivante :
 ```
-v3
-  db
-    beacons.json      => fichier d'initialisation de la database
-  node_modules
-    myapi.js          => définition des routes/requêtes HTTP autorisées
-    package-lock.json => bibliothèques utilisées, fichier généré automatiquement lors de la création du projet JS
-    package.json      => paramètres du fichier myapi.js
+v6
+    Assets            => Ensemble des images qui ont servis à l'esthétisme de la page WEB.
+        banner.jpg
+        logo_ISTY.png
+        logo_MECAVENIR.png
+    fonctions.json    => Fichier d'instanciation des fonctions utilisateur pour interagir avec la page.
+    page.html         => Double-cliques pour visualiser la page WEB en localhost. (définition des éléments HTML de la page).
+    style.css         => Modification physique des éléments HTML pour un meilleur confort visuel. (Et Arrangement pour que la page puisse aussi s'afficher sur des petits formats d'écran comme un téléphone)
+    package-lock.json => Bibliothèques utilisées, fichier généré automatiquement lors de la création du projet JS
+    package.json      => Ajout des dépendances json
 ``` 
-v3: JS + Compatibilité WebApp
+WebAPP_V6: Fonctions triangulation à jour et prêt à l'emploi.</br>
+
 ## Installation
 Télécharger puis décompresser le fichier v3.zip.</br>
 Dans le terminal Linux, installation de NodeJS:
