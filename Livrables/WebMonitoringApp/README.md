@@ -80,11 +80,11 @@ L'utilisateur se place directement au-dessus de la balise dont le signal est cap
 Cette approximation est obligatoire étant donné l'infinité de possibilité (l'utilisateur peut être n'importe où dans la zone de la balise).</br>
 
 ##### Traitement du cas 3: 2 balises detectées </br>
-Détection des intersections des deux zones (cercle vert fluo).</br>
+Détection des intersections des deux zones (cercles vert fluo).</br>
 L'utilisateur se placera au centre de la droite qui lie les deux intersections.</br>
 
 ##### Traitement du cas 4: 3 balises detectées </br>
-Détection des intersections des trois zones (cercle vert fluo).</br>
+Détection des intersections des trois zones (cercles vert fluo).</br>
 L'utilisateur se placera au centre du triangle que forme les trois intersections.</br>
 
 ## Serveur-WebAPP (en coordination avec Félix)
