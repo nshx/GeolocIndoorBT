@@ -30,13 +30,13 @@ Ouvrir le dossier "WebApp_V6".</br>
 Double-clique sur le fichier nommé "page.html".</br>
 
 ## Fonctionnement de la page WEB [onglet MAP]
-### Mode Simulation : Définir les niveaux des signaux RSSI.</br>
+#### Mode Simulation : Définir les niveaux des signaux RSSI.</br>
 Dans les espaces d'édition de texte (B1 à B3), l'utilisateur à la possibilité de modifier les valeurs par défaut [-120].</br>
 La plage de valeur autorisée est comprise entre -120 jusqu'à -30 dbm, correspondant au niveau de puissance qu'un module HC-05 peut émettre.</br>
 <strong>-30</strong> étant un signal fort, le plus fort que le module puisse émettre, ce qui signifie que l'utilisateur se positionne à moins d'1m de la balise.</br>
 <strong>-120</strong> est le signal le plus faible correspondant à une distance utilisateur-balise d'environ 10m moyennant les problèmes de propagation dûe à l'environnement où se trouve les deux entités.</br>
 
-### Serveur-WebAPP (en coordination avec Félix)
+## Serveur-WebAPP (en coordination avec Félix)
 Avant de démarrer l'application (double click sur le fichier page.html),</br>
 il faut vérifier l'adresse IP du serveur de l'API/Database (127.0.0.1 pour un test en local ou l'IP de la raspberry)</br>
 Pour s'assurer de la récupération des données, nous regardons la console DevTools (touche F12) de la page Web.</br>
@@ -53,7 +53,7 @@ curl -X PUT -H "Content-Type: application/json" -d '{"flag":1}' http://localhost
 ```
 Une fois le drapeau à jour, l'application Web relance une requête GET (après 38 essais sur la capture d'écran) pour récupérer les données des 3 balises.</br>
 
-### Application Android
+## Application Android
 Le téléphone scan et recherche les balises du réseau grâce à leur adresse BT unique.</br>
 Il récupère jusqu'à 3 RSSI puis envoie une requête PUT pour mettre à jour la database</br>
 et passer le drapeau à 1.</br>
