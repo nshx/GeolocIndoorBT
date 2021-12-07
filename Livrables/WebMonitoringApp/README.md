@@ -1,28 +1,15 @@
 ## DESCRIPTION
-_Application Progamming Interface_</br></br>
-Cette application permet la gestion de la flotte des balises.</br>
-La database est enregistrée localement dans la RaspPi.</br>
-Elle contient 3 balises et 1 drapeau. La position et l'adresse Bluetooth de chaque dispositif sont connues.</br>
-Le drapeau régule la lecture des indicateurs d'intensité du signal BT reçu (RSSI).</br>
-Chaque balise est structurée de la manière suivante :</br>
-```python
-{
-  'id': 1,
-  'addr': '12-34-56-ab-cd-ef',
-  'rssi': -20,
-  'pos_x': 0,
-  'pos_y': 1
-}
-```
-Le drapeau</br>
-```python
-{
-  'id': 0,
-  'flag': 0
-}
-```
-0 => Mise à jour des RSSI</br>
-1 => Lecture autorisée : la WebApp peut récupérer les données</br>
+_Application WEB servant d'interface utilisateur pour la localisation d'un téléphone par triangulation_</br></br>
+Cette application permet de visualiser et de "simuler, en l'état" la position approximé d'un utilisateur entre 3 balises bluetooth.</br>
+L'application est constituée de plusieurs zones d'interactions:</br>
+
+
+
+
+
+
+
+
 ## Livrable
 Dans le dossier décompressé v3.zip, vous trouverez l'arborescence suivante :
 ```
