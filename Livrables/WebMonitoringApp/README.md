@@ -38,7 +38,7 @@ La plage de valeur autorisée est comprise entre -120 jusqu'à -30 dbm, correspo
 Pour réaliser la fonction de triangulation présentée ci-après, j'ai procédé par tests pour déterminer la distance correspondant à un niveau RSSI.</br>
 Les données résultantes de la distance en fonction du signal reçu est écrite ci-dessous:</br>
 <ul>
-  <strong>[dBm]       <pre>[m]</strong></br>
+  <pre><strong>[dBm]     [m]</strong></br>
        -30         1</br>
        -40         2</br>
        -50         3</br>
@@ -49,6 +49,7 @@ Les données résultantes de la distance en fonction du signal reçu est écrite
        -100        8</br>
        -110        9</br>
        -120        10</br>
+   </pre>
 </ul>
 
 ## Serveur-WebAPP (en coordination avec Félix)
