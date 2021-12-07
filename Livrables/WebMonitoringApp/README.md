@@ -12,7 +12,7 @@ L'application est constituée de plusieurs zones d'interactions :</br>
 Dans le dossier décompressé WebAPP_V6.zip, vous trouverez l'arborescence suivante :
 ```
 v6
-    Assets            => Ensemble des images qui ont servis à l'esthétisme de la page WEB.
+    Assets            => Ensemble des images qui ont servi à l'esthétisme de la page WEB.
         banner.jpg
         logo_ISTY.png
         logo_MECAVENIR.png
@@ -27,16 +27,16 @@ Télécharger puis décompresser le fichier WebApp_V6.zip.</br>
 
 ## Application WEB
 Ouvrir le dossier "WebApp_V6".</br>
-Double-clique sur le fichier nommé "page.html".</br>
+Double-cliquez sur le fichier "page.html".</br>
 
 ### Fonctionnement de la page WEB [Onglet "MAP"]
 #### Mode Simulation : Définir les niveaux des signaux RSSI.</br>
 Dans les espaces d'édition de texte (B1 à B3), l'utilisateur à la possibilité de modifier les valeurs par défaut [-120].</br>
-La plage de valeur autorisée est comprise entre -120 jusqu'à -30 dbm, correspondant au niveau de puissance qu'un module HC-05 peut émettre.</br>
-<strong>-30</strong> étant un signal fort, le plus fort que le module puisse émettre, ce qui signifie que l'utilisateur se positionne à moins d'1m de la balise.</br>
-<strong>-120</strong> est le signal le plus faible correspondant à une distance utilisateur-balise d'environ 10m moyennant les problèmes de propagation dûe à l'environnement où se trouve les deux entités.</br>
+Les valeurs autorisées sont comprises entre -120 jusqu'à -30 dbm. Elles correspondant au niveau de puissance qu'un module HC-05 peut émettre.</br>
+<strong>-30</strong> est le signal le plus fort que le module puisse émettre, ce qui signifie que l'utilisateur se positionne à moins d'1m de la balise.</br>
+<strong>-120</strong> est le signal le plus faible correspondant à une distance utilisateur-balise d'environ 10m moyennant les problèmes de propagation dûs à l'environnement où se trouve les deux entités.</br>
 Pour réaliser la fonction de triangulation présentée ci-après, j'ai procédé par tests pour déterminer la distance correspondant à un niveau RSSI.</br>
-Les données résultantes de la distance en fonction du signal reçu est écrite ci-dessous:</br>
+Les données résultantes de la distance en fonction du signal reçu sont écrites ci-dessous:</br>
 
 <ul>
   <pre>
@@ -54,12 +54,12 @@ Les données résultantes de la distance en fonction du signal reçu est écrite
    </pre>
 </ul>
 
-Si l'utilisateur ne donne pas un multiple de 10, alors la valeur qui sera donné en retour à la fonction de calcul de la triangulation sera la moyenne des valeurs sup et inf à celle-ci.</br> (Exemple: <strong>input</strong> = -34 dBm; </br> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; <strong>output</strong> = (-30 dBm) + (-40 dBm) / 2 -> (1 m + 2 m) / 2 = 1.5m)</br>
+Si l'utilisateur ne donne pas un multiple de 10, alors la valeur qui sera retournée par la fonction de triangulation est la moyenne des bornes supérieure et inférieure.</br> (Exemple: <strong>input</strong> = -34 dBm; </br> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; <strong>output</strong> = (-30 dBm) + (-40 dBm) / 2 -> (1 m + 2 m) / 2 = 1.5m)</br>
 
 Une fois les valeurs RSSI entrées pour chaque balise, l'utilisateur peut lancer la localisation avec le bouton "scan-area".
 
 #### Mode Simulation : La Triangulation.</br>
-_Nota: Toutes les données sont des approximations. Puisque la simulation ne vérifie pas que les RSSI concordent entre eux, il y'a également une approximation sur ces données._</br>
+_Note: Toutes les données sont des approximations. Puisque la simulation ne vérifie pas que les RSSI concordent entre eux, il y a également une approximation sur ces données._</br>
 Il existe quatre cas de figure:
 <ul>
   - Aucune balise detecté,</br>
@@ -69,23 +69,23 @@ Il existe quatre cas de figure:
 </ul>
 Chaque cas est determiné par le RSSI des 3 balises.
 
-Si le RSSI est supérieur à -30 dBm (alors il y'a une erreur donc rssi = 0) et si rssi est inférieur à -120 dBm (même opération, rssi = 0)
+Si le RSSI est supérieur à -30 dBm (alors il y'a une erreur donc RSSI = 0) et si rssi est inférieur à -120 dBm (même opération, RSSI = 0)
 Lorsque le rssi d'une balise vaut 0 son signal n'existe pas et le nombre de balise detecté diminue de 1.
 
-##### Traitement du cas 1: Zéros balise detectée </br>
+##### Traitement du cas 1: Zéro balise detectée </br>
 Rien n'est mis à jour, le système reste dans sa dernière position connue.</br>
 
 ##### Traitement du cas 2: Une balise detectée </br>
 L'utilisateur se place directement au-dessus de la balise dont le signal est capté.</br>
-Cette approximation est obligatoire étant donné l'infinité de possibilité (l'utilisateur peut être n'importe où dans la zone de la balise).</br>
+Cette approximation est obligatoire étant donné l'infinité de possibilités (l'utilisateur peut être n'importe où dans la zone de la balise).</br>
 
 ##### Traitement du cas 3: Deux balises detectées </br>
-Détection des intersections des deux zones (cercles vert fluo).</br>
+Détection des intersections des deux zones (cercles verts fluorescents).</br>
 L'utilisateur se placera au centre de la droite qui lie les deux intersections.</br>
 
 ##### Traitement du cas 4: Trois balises detectées </br>
-Détection des intersections des trois zones (cercles vert fluo).</br>
-L'utilisateur se placera au centre du triangle que forme les trois intersections.</br>
+Détection des intersections des trois zones (cercles verts fluorescents).</br>
+L'utilisateur se placera au centre du triangle formé par les trois intersections.</br>
 
 ## Serveur-WebAPP (en coordination avec Félix)
 Avant de démarrer l'application (double click sur le fichier page.html),</br>
