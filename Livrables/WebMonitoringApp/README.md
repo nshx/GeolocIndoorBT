@@ -39,7 +39,7 @@ Pour réaliser la fonction de triangulation présentée ci-après, j'ai procéd�
 Les données résultantes de la distance en fonction du signal reçu est écrite ci-dessous:</br>
 <ul>
   <pre>
-<strong>[dBm]         [m]</strong></br>
+<strong>[dBm]        [m]</strong></br>
  -30         1</br>
  -40         2</br>
  -50         3</br>
