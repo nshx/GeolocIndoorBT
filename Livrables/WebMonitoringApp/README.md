@@ -25,16 +25,31 @@ WebAPP_V6: Fonction triangulation à jour et prête à l'emploi.</br>
 ## Installation
 Télécharger puis décompresser le fichier WebApp_V6.zip.</br>
 
-## Lancer l'application
+## Application WEB
 Ouvrir le dossier "WebApp_V6".</br>
 Double-clique sur le fichier nommé "page.html".</br>
 
-## Fonctionnement de la page WEB [onglet MAP]
+### Fonctionnement de la page WEB [Onglet "MAP"]
 #### Mode Simulation : Définir les niveaux des signaux RSSI.</br>
 Dans les espaces d'édition de texte (B1 à B3), l'utilisateur à la possibilité de modifier les valeurs par défaut [-120].</br>
 La plage de valeur autorisée est comprise entre -120 jusqu'à -30 dbm, correspondant au niveau de puissance qu'un module HC-05 peut émettre.</br>
 <strong>-30</strong> étant un signal fort, le plus fort que le module puisse émettre, ce qui signifie que l'utilisateur se positionne à moins d'1m de la balise.</br>
 <strong>-120</strong> est le signal le plus faible correspondant à une distance utilisateur-balise d'environ 10m moyennant les problèmes de propagation dûe à l'environnement où se trouve les deux entités.</br>
+Pour réaliser la fonction de triangulation présentée ci-après, j'ai procédé par tests pour déterminer la distance correspondant à un niveau RSSI.</br>
+Les données résultantes de la distance en fonction du signal reçu est écrite ci-dessous:</br>
+<ul>
+      [dBm]       [m]
+       -30         1
+       -40         2
+       -50         3
+       -60         4
+       -70         5
+       -80         6
+       -90         7
+       -100        8
+       -110        9
+       -120        10
+</ul>
 
 ## Serveur-WebAPP (en coordination avec Félix)
 Avant de démarrer l'application (double click sur le fichier page.html),</br>
