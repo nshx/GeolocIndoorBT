@@ -18,30 +18,13 @@ v6
         logo_MECAVENIR.png
     fonctions.json    => Fichier d'instanciation des fonctions utilisateur pour interagir avec la page.
     page.html         => Double-cliques pour visualiser la page WEB en localhost. (définition des éléments HTML de la page).
-    style.css         => Modification physique des éléments HTML pour un meilleur confort visuel. (Et Arrangement pour que la page puisse aussi s'afficher sur des petits formats d'écran comme un téléphone)
-    package-lock.json => Bibliothèques utilisées, fichier généré automatiquement lors de la création du projet JS
-    package.json      => Ajout des dépendances json
+    style.css         => Modification physique des éléments HTML pour un meilleur confort visuel. (Arrangement des éléments pour que la page puisse aussi s'afficher sur des petits formats d'écran comme un téléphone)
 ``` 
 WebAPP_V6: Fonctions triangulation à jour et prêt à l'emploi.</br>
 
 ## Installation
-Télécharger puis décompresser le fichier v3.zip.</br>
-Dans le terminal Linux, installation de NodeJS:
-```
-  install nodeJS
-  install npm
-  npm i -s express
-  npm i -s nodemon
-``` 
-Installation de cURL pour lancer des requêtes HTTP :
-```
-  sudo apt update && sudo apt upgrade</br>
-  sudo apt install curl</br>
-```
-Droits d'exécution du programme, depuis le répertoire ./v3 (en coordination avec Thomas) :
-```
-  sudo chown 711 ./node_modules/.bin/nodemon
-```
+Télécharger puis décompresser le fichier WebApp_V6.zip.</br>
+
 ## Running the application
 Ouvrir l'invite de commande dans le répertoire du fichier index.js.</br>
 Pour lancer l'API, exécuter l'instruction :
