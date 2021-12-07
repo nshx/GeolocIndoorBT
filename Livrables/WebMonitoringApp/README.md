@@ -113,8 +113,8 @@ et passer le drapeau à 1.</br>
 &nbsp;&nbsp;&nbsp;- 07/12/2021: Version 1.0.0, Alexandre LEPERS (lepers199)
 
 ## References
-Création page HTML/CSS: https://www.youtube.com/watch?v=oYRda7UtuhA&ab_channel=EasyTutorials
-Canvas JavaScript: https://developer.mozilla.org/fr/docs/Web/HTML/Element/canvas
-Gradient Javascript: https://www.w3schools.com/html/html5_canvas.asp
-Iteration dict JavaScript: https://stackoverflow.com/questions/34913675/how-to-iterate-keys-values-in-javascript
+Création page HTML/CSS: https://www.youtube.com/watch?v=oYRda7UtuhA&ab_channel=EasyTutorials</br>
+Canvas JavaScript: https://developer.mozilla.org/fr/docs/Web/HTML/Element/canvas</br>
+Gradient Javascript: https://www.w3schools.com/html/html5_canvas.asp</br>
+Iteration dict JavaScript: https://stackoverflow.com/questions/34913675/how-to-iterate-keys-values-in-javascript</br>
 JavaScript to HTML: https://openclassrooms.com/forum/sujet/passer-une-variable-js-a-un-code-html
