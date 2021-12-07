@@ -53,7 +53,7 @@ Les données résultantes de la distance en fonction du signal reçu est écrite
    </pre>
 </ul>
 
-Si l'utilisateur ne donne pas un multiple de 10, alors la valeur qui sera donné en retour à la fonction de calcul de la triangulation sera la moyenne des valeurs sup et inf à celle-ci.</br> (Exemple: <strong>input</strong> = -34 dBm; </br> &nbsp;  &nbsp;  &nbsp; <strong>output</strong> = (-30 dBm) + (-40 dBm) / 2 -> (1 m + 2 m) / 2 = 1.5m)</br>
+Si l'utilisateur ne donne pas un multiple de 10, alors la valeur qui sera donné en retour à la fonction de calcul de la triangulation sera la moyenne des valeurs sup et inf à celle-ci.</br> (Exemple: <strong>input</strong> = -34 dBm; </br> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  <strong>output</strong> = (-30 dBm) + (-40 dBm) / 2 -> (1 m + 2 m) / 2 = 1.5m)</br>
 
 ## Serveur-WebAPP (en coordination avec Félix)
 Avant de démarrer l'application (double click sur le fichier page.html),</br>
