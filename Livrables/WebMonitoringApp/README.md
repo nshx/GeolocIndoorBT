@@ -3,9 +3,9 @@
 Cette application permet de visualiser et de "simuler, en l'état" la position approximé d'un utilisateur entre 3 balises bluetooth.</br>
 L'application est constituée de plusieurs zones d'interactions :</br>
 <ul>
-  - Home -> Brève description de l'application et accès rapide aux différentes sections de la page ainsi qu'au github via le bouton "download"</br>
-  - Map -> Zone utilisée pour la visualisation de l'utilisateur sur un graphique de forme circulaire. La zone est cadrillée avec une certaine échelle d'écrite en-dessous de la forme. Les trois balises sont représentés en jaune avec respectivement, la première en haut, la seconde à gauche et la dernière à droite formant un triangle isocèle.</br>
-  - Authors -> Visualisation des tâches réalisées par les membres de l'équipe et remerciment pour la lecture et l'utilisation de l'application WEB.</br>
+  - <strong>Home</strong> -> Brève description de l'application et accès rapide aux différentes sections de la page ainsi qu'au github via le bouton "download"</br>
+  - <strong>Map</strong> -> Zone utilisée pour la visualisation de l'utilisateur sur un graphique de forme circulaire. La zone est cadrillée avec une certaine échelle d'écrite en-dessous de la forme. Les trois balises sont représentés en jaune avec respectivement, la première en haut, la seconde à gauche et la dernière à droite formant un triangle isocèle.</br>
+  - <strong>Authors</strong> -> Visualisation des tâches réalisées par les membres de l'équipe et remerciment pour la lecture et l'utilisation de l'application WEB.</br>
 </ul>
 
 
