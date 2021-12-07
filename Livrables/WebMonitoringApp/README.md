@@ -17,46 +17,19 @@ v6
         logo_ISTY.png
         logo_MECAVENIR.png
     fonctions.json    => Fichier d'instanciation des fonctions utilisateur pour interagir avec la page.
-    page.html         => Double-cliques pour visualiser la page WEB en localhost. (définition des éléments HTML de la page).
+    page.html         => Double-clique pour visualiser la page WEB en localhost. (définition des éléments HTML de la page).
     style.css         => Modification physique des éléments HTML pour un meilleur confort visuel. (Arrangement des éléments pour que la page puisse aussi s'afficher sur des petits formats d'écran comme un téléphone)
 ``` 
-WebAPP_V6: Fonctions triangulation à jour et prêt à l'emploi.</br>
+WebAPP_V6: Fonction triangulation à jour et prête à l'emploi.</br>
 
 ## Installation
 Télécharger puis décompresser le fichier WebApp_V6.zip.</br>
 
-## Running the application
-Ouvrir l'invite de commande dans le répertoire du fichier index.js.</br>
-Pour lancer l'API, exécuter l'instruction :
-```
-  npm start
-```
-## API cURL USE CASE
-Les commandes cURL suivantes permettent de mettre à jour manuellement la data base.</br>
-Elles ont été testées et validées sur la version 18.04 d'Ubuntu.</br>
-**GET - EVERY BEACONS**: Liste l'ensemble de la database
-```
-curl http://localhost:3000/api/v3/beacons/
-```
-**POST - ADD BEACON**: Ajout d'une 4e balise
-```
-curl -H 'Content-Type: application/json' -d '{"id":4,"addr":"44-44-44-44-44-44","RSSI":-100,"pos_x":5,"pos_y":5}' http://localhost:3000/api/v3/beacons/
-```
-**PUT - UPDATE BEACON BY ID**: Mise à jour du RSSI de la 4e balise
-```
-curl -X PUT -H "Content-Type: application/json" -d '{"RSSI":-42}' http://localhost:3000/api/v3/beacons/4/
-```
-**GET - SINGLE BEACON BY ID**: Récupération des infos de la 4e balise
-```
-curl http://localhost:3000/api/v3/beacons/4/
-```
-**DELETE - REMOVE BEACON BY ID**: Suppression de la 4e balise
-```
-curl -X DELETE http://localhost:3000/api/v3/beacons/4/ -H "Accept: application/json"
-```
-## Intégration de l'API dans l'architecture BT
-Il est fondamental de connecter la RaspPi et le smartphone sur le même réseau WiFi.
-### Application Web (en coordination avec Alexandre)
+## Lancer l'application
+Ouvrir le dossier "WebApp_V6".</br>
+Double-clique sur le fichier nommé "page.html".</br>
+
+### Serveur-WebAPP (en coordination avec Félix)
 Avant de démarrer l'application (double click sur le fichier page.html),</br>
 il faut vérifier l'adresse IP du serveur de l'API/Database (127.0.0.1 pour un test en local ou l'IP de la raspberry)</br>
 Pour s'assurer de la récupération des données, nous regardons la console DevTools (touche F12) de la page Web.</br>
@@ -72,12 +45,15 @@ Pour indiquer l'état READ READY à l'application web, nous passons la valeur du
 curl -X PUT -H "Content-Type: application/json" -d '{"flag":1}' http://localhost:3000/api/v3/beacons/0/
 ```
 Une fois le drapeau à jour, l'application Web relance une requête GET (après 38 essais sur la capture d'écran) pour récupérer les données des 3 balises.</br>
+
 ### Application Android
 Le téléphone scan et recherche les balises du réseau grâce à leur adresse BT unique.</br>
 Il récupère jusqu'à 3 RSSI puis envoie une requête PUT pour mettre à jour la database</br>
 et passer le drapeau à 1.</br>
+
 ## Updates :
 &nbsp;&nbsp;&nbsp;- 24/11/2021: Version 1.0.0, Félix GOUBIN (nshx)
+
 ## References
 projet python API: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask</br>
 projet node.JS API + BDD mongoDB : https://www.youtube.com/watch?v=hjR52rCqlQU</br>
