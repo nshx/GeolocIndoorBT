@@ -1,5 +1,5 @@
 ## DESCRIPTION
-# Application WEB servant d'interface utilisateur pour la localisation d'un téléphone par triangulation.</br></br>
+### Application WEB servant d'interface utilisateur pour la localisation d'un téléphone par triangulation.</br></br>
 Cette application permet de visualiser et de "simuler, en l'état" la position approximé d'un utilisateur entre 3 balises bluetooth.</br>
 L'application est constituée de plusieurs zones d'interactions:</br>
 
