@@ -3,9 +3,9 @@
 Cette application permet de visualiser et de "simuler, en l'état" la position approximé d'un utilisateur entre 3 balises bluetooth.</br>
 L'application est constituée de plusieurs zones d'interactions:</br>
 <ul>
-  - Home
-  - Map
-  - Authors
+  - Home</br>
+  - Map</br>
+  - Authors</br>
 </ul>
 
 
