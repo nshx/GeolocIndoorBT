@@ -1,7 +1,7 @@
 ## DESCRIPTION
 ### Programme arduino pour envoie de chaînes de caratères.</br>
-Les programmes fournis permettent d'envoyer des chaînes de caractères au module bluetooth.
-
+Les programmes Mini_projet_radio.ino et Mini_projet_radion_V2.ino fournis permettent d'envoyer des chaînes de caractères au module bluetooth.</br>
+Le programme bluetooth.ino permet de configurer et tester les modules bluetooth.</br>
 
 ## Livrable
 Vous trouverez les fichiers suivant :
