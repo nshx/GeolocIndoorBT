@@ -110,7 +110,7 @@ Il récupère jusqu'à 3 RSSI puis envoie une requête PUT pour mettre à jour l
 et passer le drapeau à 1.</br>
 
 ## Updates :
-&nbsp;&nbsp;&nbsp;- 07/12/2021: Version 1.0.0, Alexandre LEPERS (lepers199)
+&nbsp;&nbsp;&nbsp;- 07/12/2021: Version 6.0.0, Alexandre LEPERS (lepers199)
 
 ## References
 Création page HTML/CSS: https://www.youtube.com/watch?v=oYRda7UtuhA&ab_channel=EasyTutorials</br>
