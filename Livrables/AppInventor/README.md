@@ -5,7 +5,7 @@ Cette application permet à un utilisateur de scanner des modules bluetooth conn
 L'application permet un simple scan des modules bluetooth environnant et la lecture des niveaux RSSI:</br>
 <ul>
 En lançant l'application, on nous propose de lancer un scan des modules environnant.</br>
-Tant que les 3 modules nécessaires à la triangulation, on continue l'acquisition.</br>
+Tant que les 3 modules nécessaires à la triangulation ne sont pas détectés, on continue l'acquisition.</br>
 </ul>
 
 ## Livrable
